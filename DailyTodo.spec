@@ -1,11 +1,21 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 
+datas = [
+    ('assets/images/1.png', 'assets/images'),
+    ('assets/images/2.png', 'assets/images'),
+    ('assets/images/3.png', 'assets/images'),
+    ('assets/images/4.png', 'assets/images'),
+    ('assets/images/5.png', 'assets/images'),
+    ('assets/images/5.ico', 'assets/images'),
+]
+
+
 a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=datas,
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

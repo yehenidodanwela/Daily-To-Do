@@ -2,6 +2,11 @@
 
 Desktop to-do app built with Python and Tkinter, packaged as a Windows `.exe`.
 
+## Download
+
+- Latest release: [Daily To Do v1.0.2](https://github.com/yehenidodanwela/Daily-To-Do/releases/tag/v1.0.2)
+- The release ZIP includes the Windows executable and all required app files.
+
 ## Features
 
 - Add tasks with title, date, optional time, and repeat rule.
@@ -16,6 +21,17 @@ Desktop to-do app built with Python and Tkinter, packaged as a Windows `.exe`.
 ## Run
 
 Double-click `dist\Daily To Do.exe`.
+
+You do not need Python installed to run the packaged `.exe`.
+
+## How to Use
+
+1. Download the release ZIP file from GitHub.
+2. Extract the ZIP to any folder on your Windows PC.
+3. Open the extracted folder and double-click `Daily To Do.exe`.
+4. If Windows shows a security warning, click `More info` and then `Run anyway`.
+5. Add your tasks in the app and close it when you are done.
+6. Your tasks are saved locally on your PC, so they will still be there next time you open the app.
 
 ## Build
 
